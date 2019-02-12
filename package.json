@@ -1,0 +1,23 @@
+{
+  "name": "dev-alerts-twitch-extension",
+  "version": "1.0.0",
+  "description": "Developer Alerts Twitch Extension",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir ./public/assets/js/",
+    "dev": "babel src --out-dir ./public/assets/js/ --watch"
+  },
+  "keywords": [
+    "twitch",
+    "extension"
+  ],
+  "author": "Suz Hinton",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
