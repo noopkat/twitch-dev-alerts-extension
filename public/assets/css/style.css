@@ -1,7 +1,7 @@
 /*
  MEDIA QUERIES
 */
-@media (min-width:600px) {
+@media (min-width:300px) {
   body {
     font-size: 9px;
   }
@@ -10,6 +10,9 @@
     height: 8px;
   }
 
+  #header button {
+    border-radius: 3px;
+  }
 }
 
 @media (min-width:800px) {
@@ -40,9 +43,19 @@
   ANIMATION
 */
 @keyframes flash {
-  0% { background-color: white; opacity: 0; transform: translateX(100px) }
-  50%, 70% {background-color: #f8ff84; opacity: 1; transform: translateX(0px) }
-  100% { background-color: white; } 
+  0% {
+    background-color: white;
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  50%, 70% {
+    background-color: #f8ff84;
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    background-color: white;
+  } 
 }
 
 /*
@@ -80,8 +93,8 @@
   padding: 0 15px 5px 10px;
   position: relative;
   float: right;
-  margin-top: 90px;
-  width: 25%;
+  margin-top: 1.4%;
+  width: 20.8%;
   background-color: #AFEAFD;
   transition: height 2s ease;
 }

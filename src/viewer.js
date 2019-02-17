@@ -4,9 +4,9 @@ const eventListSize = 3;
 const assetsDir = 'assets';
 
 const githubEventNames = {
-  pull_request: 'PullRequestEvent',
-  issue: 'IssuesEvent',
-  check_suite: 'CheckSuiteEvent'
+  pull_request: 'pull_request',
+  issue: 'issues',
+  check_suite: 'check_suite'
 };
 
 const githubEventIcons = {
